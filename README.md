@@ -82,6 +82,7 @@ app.listen(port, () => console.log(`App listening on port ${port}!`));
 ![size](https://img.shields.io/github/repo-size/ravindudil5han/youtube-video-downloader-and-api?color=purple&label=Repo%20Size&style=plastic)
 ![license](https://img.shields.io/github/license/ravindudil5han/youtube-video-downloader-and-api?color=purple&label=License&style=plastic)
 ![developer](https://img.shields.io/static/v1?label=Author&message=Dilshan&color=purple&style=plastic)
+![code qulity](https://img.shields.io/codefactor/grade/github/phaticusthiccy/WhatsAsenaDuplicated?color=purple&label=Code%20Quality&style=plastic)
 
 
 <a href="https://testinghuththo.rf.gd"><img src="https://avatars.githubusercontent.com/u/90592440?v=4" width=80 height=80></a>

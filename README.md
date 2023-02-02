@@ -1,6 +1,6 @@
-#YOUTUBE DOWNLOADER
+# YOUTUBE DOWNLOADER
 
-###The code exports a default object with three properties: yt.YT is a function that downloads a YouTube video. It takes five arguments:
+### The code exports a default object with three properties: yt.YT is a function that downloads a YouTube video. It takes five arguments:
 
 url: a string representing the YouTube video URL
 quality: a string indicating the quality of the video (avaiable options are: 144p, 240p, 360p, 480p, 720p, 1080p, 1440p, 2160p)

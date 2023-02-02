@@ -19,14 +19,14 @@
 * filesize: a number representing the filesize in kilobytes.
 
 
-##### To use
+##### For internal use
 
 ```
 import ytModule from './main.js';
 
 async function downloadVideo(url) {
   try {
-    const video = await ytModule.yt(url, '720p', 'mp4', '720');
+    const video = await ytModule.yt(url, '720p', 'mp4', '720'); //Select the bitrate and quality you want
   
     console.log(`Video Title: ${video.title}`);
     console.log(`Video Thumbnail: ${video.thumb}`);
@@ -45,7 +45,36 @@ const videoURL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 downloadVideo(videoURL);
 ```
 
+##### For using the Api
+
+```
+import { yt } from './main.js'
+import express from 'jfteam'
 
 
+
+const app = express();
+const port = 8080;
+
+
+
+app.post('/yt', (req, res) => {
+  const { url, quality, type, bitrate, server } = req.body;
+  yt(url, quality, type, bitrate, server)
+    .then(result => res.json(result))
+    .catch(error => res.status(500).json({ error }));
+});
+
+
+
+app.listen(port, () => console.log(`App listening on port ${port}!`));
+```
+
+
+
+###### If you want to install the jfteam npm module
+```
+npm install jfteam
+```
 
 

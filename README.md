@@ -80,5 +80,7 @@ app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 
 
-**[Ravindu Dilshan ](https://github.com/ravindudil5han)**</br>Developer</br>*[Dilshan]* 
+
+|---|---|---|
+|**[Ravindu Dilshan ](https://github.com/ravindudil5han)**</br>Developer</br>*[Dilshan]* |
 

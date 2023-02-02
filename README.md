@@ -19,6 +19,31 @@
 * filesize: a number representing the filesize in kilobytes.
 
 
+##### To use
+
+```import ytModule from './main.js';
+
+async function downloadVideo(url) {
+  try {
+    const video = await ytModule.yt(url, '720p', 'mp4', '720');
+  
+    console.log(`Video Title: ${video.title}`);
+    console.log(`Video Thumbnail: ${video.thumb}`);
+    console.log(`Video File Size: ${video.filesizeF}`);
+    console.log(`Video Download Link: ${video.dl_link}`);
+
+    
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+
+
+const videoURL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+downloadVideo(videoURL);```
+
+
 
 
 

@@ -21,7 +21,8 @@
 
 ##### To use
 
-```import ytModule from './main.js';
+```
+import ytModule from './main.js';
 
 async function downloadVideo(url) {
   try {
@@ -41,7 +42,8 @@ async function downloadVideo(url) {
 
 
 const videoURL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-downloadVideo(videoURL);```
+downloadVideo(videoURL);
+```
 
 
 

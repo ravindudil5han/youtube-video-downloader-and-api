@@ -19,6 +19,14 @@
 * filesize: a number representing the filesize in kilobytes.
 
 
+![forks](https://img.shields.io/github/forks/ravindudil5han/youtube-video-downloader-and-api?label=Forks&style=social)
+![stars](https://img.shields.io/github/stars/ravindudil5han/youtube-video-downloader-and-api?style=social)
+
+![size](https://img.shields.io/github/repo-size/ravindudil5han/youtube-video-downloader-and-api?color=purple&label=Repo%20Size&style=plastic)
+![license](https://img.shields.io/github/license/ravindudil5han/youtube-video-downloader-and-api?color=purple&label=License&style=plastic)
+![developer](https://img.shields.io/static/v1?label=Author&message=Dilshan&color=purple&style=plastic)
+
+
 ##### For internal use
 
 ```

@@ -80,9 +80,5 @@ app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 
 
-###### If you want to install the jfteam npm module
-```
-npm install jfteam
-```
 
 

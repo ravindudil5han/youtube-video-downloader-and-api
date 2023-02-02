@@ -92,3 +92,6 @@ app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 <a href="http://wa.me/94772601056" target="blank"><img src="https://img.shields.io/badge/DILSHAN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
+
+  ###### License
+This project is protected by `GNU General Public Licence v3.0` license.
